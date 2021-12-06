@@ -56,7 +56,7 @@
 											<h5 class="tittle-w3layouts-sub"> Light Novels </h5>
 											<ul>
 												<li class="media-mini mt-3">
-													<a href="shop.html">Romantic</a>
+													<a href="shop.html">Lãng mạn</a>
 												</li>
 												<li class="">
 													<a href="shop.html"> Life </a>
