@@ -12,7 +12,7 @@
 				<!-- BANNER của trang web -->
 				<div class="col-md-6 logo-w3layouts top-info text-center">
 					<h1 class="logo-w3layouts">
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="{{ url('/') }}">
 							N&T Books </a>
 					</h1>
 				</div>
@@ -35,6 +35,6 @@
 								</button>
 							</form> -->
 						</li>
-					</ul>				
+					</ul>
 				</div>
 			</div>
