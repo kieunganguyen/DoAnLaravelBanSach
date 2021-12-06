@@ -26,7 +26,7 @@ Route::get('/NguoiDung', function () {
     return view('user/pages/usermanagement');
 });
 Route::group(['prefix' => '', 'namespace' => 'user'], function() {
-    Route::get("/","UserController@Index")->name("user.index");
+    Route::get("home","UserController@Index")->name("user.index");
     Route::get("shop","UserController@Shop")->name("user.shop");
     Route::get("contact","UserController@Contact")->name("user.contact");
     Route::get("single","UserController@Single")->name("user.single");

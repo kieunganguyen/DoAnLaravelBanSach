@@ -4,15 +4,12 @@
 			<div class="row">
 				<!-- LOGO của trang web -->
 				<div class="col-md-3 top-info text-left mt-lg-4">
-					<h6>N&T BookStore</h6>
-					<ul>
-						<li>LOGO</li>
-					</ul>
+					<img width="40%" height="30%" src="{!! asset('user\images\logo_min.png')!!}" class="img-fluid" alt="" >
 				</div>
 				<!-- BANNER của trang web -->
 				<div class="col-md-6 logo-w3layouts top-info text-center">
 					<h1 class="logo-w3layouts">
-						<a class="navbar-brand" href="{{ url('/') }}">
+						<a class="navbar-brand" href="{{ url('home') }}">
 							N&T Books </a>
 					</h1>
 				</div>

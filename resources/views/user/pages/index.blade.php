@@ -66,17 +66,15 @@
 					<!-- Sách mới -->
 					<div class="col-md-3">
 						<div class="product-googles-info googles">
+							
 							<div class="men-pro-item">
 								<!-- Hình ảnh -->
+								<a href="{{ route('user.single')}}">
 								<div class="men-thumb-item">
 									<img src="{!! asset('user\images\Book\SACH_KY_NANG_SONG\Tư Duy Sâu\DD.png')!!}" class="img-fluid" alt="">
-									<div class="men-cart-pro">
-										<div class="inner-men-cart-pro">
-											<a href="{{ route('user.single')}}" class="link-product-add-cart">Xem Chi Tiết</a>
-										</div>
-									</div>
 									<span class="product-new-top" style="background-color: green;">Mới</span>
 								</div>
+							    </a>
 								<div class="item-info-product">
 									<div class="info-product-price">
 										<!-- Tên và giá tiền -->
