@@ -9,7 +9,7 @@
 				<!-- BANNER của trang web -->
 				<div class="col-md-6 logo-w3layouts top-info text-center">
 					<h1 class="logo-w3layouts">
-						<a class="navbar-brand" href="{{ url('home') }}">
+						<a class="navbar-brand" href="{{ url('/') }}">
 							N&T Books </a>
 					</h1>
 				</div>
